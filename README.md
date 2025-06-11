@@ -41,7 +41,7 @@ Este projeto aplica um pipeline completo de ciência de dados, usando a metodolo
 ### **Etapa 6: Deploy**
 - App Streamlit interativo (entrada manual e em lote).
 - Deploy possível localmente ou em nuvem (Streamlit Cloud, Hugging Face Spaces).
-
+- https://previs-o-de-churn---telco-rtdqmkllnv76smj7sj6cwr.streamlit.app/
 ---
 
 ## 💻 **Como rodar o app**
