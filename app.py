@@ -152,5 +152,5 @@ if file:
 st.markdown("---")
 st.markdown("""
 App desenvolvido para previsão de churn com base em dados reais de telecom.  
-Dúvidas? [Seu Nome](mailto:seu@email.com)
+Dúvidas? Eric Leonel (mailto:ericbonelli@yahoo.com.br)
 """)
