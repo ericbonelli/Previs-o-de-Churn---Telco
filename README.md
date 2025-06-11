@@ -1,4 +1,4 @@
-# 📊 Previsão de Churn em Telecom — CRISP-DM + Streamlit
+# 📊 Previsão de Churn em Telcom — CRISP-DM + Streamlit
 
 Este projeto aplica um pipeline completo de ciência de dados, usando a metodologia **CRISP-DM**, para prever o churn de clientes de uma empresa de telecomunicações. O resultado é um app Streamlit pronto para deploy, permitindo previsões individuais ou em lote.
 
