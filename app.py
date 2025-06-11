@@ -1,3 +1,4 @@
+%%writefile app.py
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -139,6 +140,7 @@ if file:
                 return 'background-color: #ccffcc'
             return ''
         st.write("**Resultados:**")
+        st.info("➡️ A tabela abaixo é larga: **role para o lado para ver todas as colunas, especialmente 'Prioridade' e 'Ação recomendada'.**")
         st.dataframe(result.style.applymap(color_risk, subset=['Prioridade']))
 
         st.warning(f"Total de clientes com risco ALTO: {(result['Churn_Predicao']==1).sum()} de {len(result)}")
@@ -152,5 +154,5 @@ if file:
 st.markdown("---")
 st.markdown("""
 App desenvolvido para previsão de churn com base em dados reais de telecom.  
-Dúvidas? Eric Leonel (mailto:ericbonelli@yahoo.com.br)
+Dúvidas? Eric Leonel(mailto:ericbonelli@yahoo.com.br)
 """)
